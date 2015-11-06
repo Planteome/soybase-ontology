@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 28:10:2015 14:19
-saved-by: rexnelson
-auto-generated-by: OBO-Edit 2.1.1-beta9
+date: 06:11:2015 14:25
+saved-by: cooperl
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: SOY
 
 [Term]
@@ -17936,7 +17936,7 @@ creation_date: 2015-10-19T15:40:04Z
 id: SOY:0002031
 name: Petal
 namespace: soybean_structure
-is_a: SOY:0002048 ! Perianth
+is_a: SOY:0002048 ! perianth
 created_by: rexnelson
 creation_date: 2015-10-19T15:40:31Z
 
@@ -17944,7 +17944,7 @@ creation_date: 2015-10-19T15:40:31Z
 id: SOY:0002032
 name: Sepal
 namespace: soybean_structure
-is_a: SOY:0002048 ! Perianth
+is_a: SOY:0002048 ! perianth
 created_by: rexnelson
 creation_date: 2015-10-19T15:40:48Z
 
@@ -18065,8 +18065,9 @@ creation_date: 2015-10-19T16:06:49Z
 
 [Term]
 id: SOY:0002048
-name: Perianth
+name: perianth
 namespace: soybean_structure
+xref: PO:0009058 "perianth"
 is_a: SOY:0002030 ! Flower structures
 created_by: rexnelson
 creation_date: 2015-10-19T16:17:11Z
